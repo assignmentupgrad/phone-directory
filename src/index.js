@@ -2,9 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import AddSubcriber from './AddSubscriber';
 import * as serviceWorker from './serviceWorker';
+import './common/common.css';
 
-ReactDOM.render(<App/>, document.getElementById('root'));
+
+ReactDOM.render(<AddSubcriber/>, document.getElementById('root'));
 
 
 
